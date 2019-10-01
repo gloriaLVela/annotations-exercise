@@ -7,13 +7,11 @@ import java.util.List;
 
 
 public class Author extends Person {
-    private List books;
+    private ArrayList<String> books;
 
-    @SuppressWarnings("unchecked")
     public Author(String firstName, String lastName) {
-
         super(firstName, lastName);
-        books = new ArrayList();
+        books = new ArrayList<>();
     }
 
     /**
