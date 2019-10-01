@@ -23,7 +23,7 @@ public class Author extends Person {
         return books;
     }
 
-    public List<String> publishedBooks() {
+    public ArrayList<String> publishedBooks() {
         return books;
     }
 
