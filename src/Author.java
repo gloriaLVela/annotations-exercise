@@ -16,7 +16,6 @@ public class Author extends Person {
 
     /**
      * @deprecated Use publishedBooks instead
-     *
      */
     @Deprecated
     public List<String> getBooks() {
@@ -31,8 +30,8 @@ public class Author extends Person {
         books.add(book);
     }
 
-//    @Override
-    public String sortName() {
+    @Override
+    public String fullName() {
         return String.format("%s, %s", lastName, firstName);
     }
 }
